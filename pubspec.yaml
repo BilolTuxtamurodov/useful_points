@@ -1,0 +1,75 @@
+name: useful_points
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0-205.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_screenutil: ^5.9.3
+
+  #state management
+  get: ^4.6.5
+  rxdart: ^0.27.3
+
+  #for networking
+  dio: ^4.0.6
+  retrofit: ^3.0.1+1
+
+  #for json
+  json_annotation: ^4.7.0
+  freezed_annotation: ^2.1.0
+
+  #connectivity
+  connectivity_plus: ^3.0.3
+  flutter_native_splash: ^2.3.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+
+  image: 'assets/images/native_splash.png'
+  image_dark : 'assets/images/native_splash_dark.png'
+  color: '#ffffff'
+  color_dark: '#010A27'
+  fullscreen: true
+  android_12:
+    image: 'assets/images/native_splash.png'
+    image_dark : 'assets/images/native_splash_dark.png'
+    color: '#ffffff'
+    color_dark: '#010A27'
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+          weight: 700
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+          weight: 400
