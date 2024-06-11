@@ -8,6 +8,7 @@ class AppColors {
   static const Color grey = Color.fromRGBO(84, 84, 100, 1.0);
   static const Color orangeButtonColor = Color.fromRGBO(240, 116, 72, 1);
   static const Color orangeLight = Color.fromRGBO(249, 242, 226, 1);
+  static const Color orangeLight08 = Color.fromRGBO(240, 116, 72, 0.08);
 
   // light mode
   static const Color backgroundColor = Color.fromRGBO(255, 255, 255, 1);

@@ -2,6 +2,7 @@
 class Assets {
   Assets._();
 
+  static const String iconsCheckIcon = 'assets/icons/check_icon.svg';
   static const String iconsEn = 'assets/icons/en.svg';
   static const String iconsFr = 'assets/icons/fr.svg';
   static const String iconsRu = 'assets/icons/ru.svg';
@@ -14,5 +15,6 @@ class Assets {
   static const String robotoRobotoBold = 'assets/fonts/roboto/Roboto-Bold.ttf';
   static const String robotoRobotoLight = 'assets/fonts/roboto/Roboto-Light.ttf';
   static const String robotoRobotoMedium = 'assets/fonts/roboto/Roboto-Medium.ttf';
+  static const String robotoRobotoRegular = 'assets/fonts/roboto/Roboto-Regular.ttf';
 
 }

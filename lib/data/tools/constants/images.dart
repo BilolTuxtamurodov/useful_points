@@ -8,4 +8,5 @@ class CustomImages {
   static const String ruIcon = 'assets/icons/ru.svg';
   static const String enIcon = 'assets/icons/en.svg';
   static const String frIcon = 'assets/icons/fr.svg';
+  static const String checkIcon = 'assets/icons/check_icon.svg';
 }

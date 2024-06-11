@@ -11,6 +11,7 @@ class MyCustomMode {
     ),
     dividerColor: AppColors.white,
     appBarTheme: const AppBarTheme(
+      surfaceTintColor: AppColors.backgroundColorDark,
       color: AppColors.backgroundColorDark,
     ),
     colorScheme: ColorScheme.dark(
@@ -27,6 +28,7 @@ class MyCustomMode {
     ),
     dividerColor: AppColors.black,
     appBarTheme: const AppBarTheme(
+      surfaceTintColor: AppColors.backgroundColor,
       color: AppColors.backgroundColor,
     ),
     colorScheme: ColorScheme.light(

@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:useful_points/data/tools/service/lang_service/lang_service.dart';
 import 'package:useful_points/data/tools/styles/app_mode.dart';
 import 'package:useful_points/data/tools/styles/text_theme.dart';
+import 'package:useful_points/views/pages/choose_lang/choose_lang_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -22,9 +23,7 @@ class MyApp extends StatelessWidget {
           fallbackLocale: LangService.fallbackLocale,
           title: 'Foydali nuqtalar',
           theme: MyCustomMode().lightTheme,
-          home: Scaffold(
-            body: Center(child: Text('hello', style: robotoRegular.displaySmall),),
-          ),
+          home: const ChooseLangPage()
         );
       },
     );
