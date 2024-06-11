@@ -13,7 +13,7 @@ dependencies:
 
   cupertino_icons: ^1.0.6
   flutter_screenutil: ^5.9.3
-
+  flutter_svg: ^2.0.10+1
   #state management
   get: ^4.6.5
   rxdart: ^0.27.3
@@ -29,6 +29,10 @@ dependencies:
   #connectivity
   connectivity_plus: ^3.0.3
   flutter_native_splash: ^2.3.7
+
+  #storage
+  hive: 2.2.3
+  hive_flutter: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -60,6 +64,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/icons/
 
 
   fonts:

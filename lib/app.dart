@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:useful_points/data/tools/service/lang_service/lang_service.dart';
+import 'package:useful_points/data/tools/styles/app_mode.dart';
+import 'package:useful_points/data/tools/styles/text_theme.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -14,13 +17,13 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          // translations: LangService(),
-          // locale: LangService.defaultLanguage(),
-          // fallbackLocale: LangService.fallbackLocale,
+          translations: LangService(),
+          locale: LangService.defaultLanguage(),
+          fallbackLocale: LangService.fallbackLocale,
           title: 'Foydali nuqtalar',
-          // theme: MyCustomMode().lightTheme,
+          theme: MyCustomMode().lightTheme,
           home: Scaffold(
-            body: Center(child: Text('hello'),),
+            body: Center(child: Text('hello', style: robotoRegular.displaySmall),),
           ),
         );
       },
