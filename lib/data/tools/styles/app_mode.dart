@@ -9,6 +9,7 @@ class MyCustomMode {
       displayColor: AppColors.white,
       bodyColor: AppColors.white,
     ),
+    primaryColor: AppColors.blackForVideoBackground,
     dividerColor: AppColors.white,
     appBarTheme: const AppBarTheme(
       surfaceTintColor: AppColors.backgroundColorDark,
@@ -16,11 +17,12 @@ class MyCustomMode {
     ),
     colorScheme: ColorScheme.dark(
       primary: AppColors.black,
-      secondary: Colors.amber
+      secondary: Colors.amber,
     ),
   );
 
   ThemeData lightTheme = ThemeData(
+    primaryColor: AppColors.white,
     scaffoldBackgroundColor: AppColors.backgroundColor,
     textTheme: robotoRegular.apply(
       displayColor: AppColors.black,

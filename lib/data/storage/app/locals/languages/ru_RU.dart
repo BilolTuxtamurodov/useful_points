@@ -1,4 +1,4 @@
-import 'package:useful_points/data/storage/app/locals/strings.dart';
+import 'package:useful_points/data/storage/app/locals/words.dart';
 
 Map<String, String> ruRU = {
   // a

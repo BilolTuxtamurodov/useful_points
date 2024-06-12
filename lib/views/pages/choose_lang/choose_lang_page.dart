@@ -1,13 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:useful_points/controller/choose_lang/choose_lang_controller.dart';
-import 'package:useful_points/data/storage/app/locals/strings.dart';
+import 'package:useful_points/data/storage/app/locals/words.dart';
 import 'package:useful_points/data/tools/constants/images.dart';
-import 'package:useful_points/data/tools/styles/app_colors.dart';
-import 'package:useful_points/data/tools/styles/text_theme.dart';
 import 'package:useful_points/views/pages/choose_lang/widget/lang_item.dart';
 import 'package:useful_points/views/widgets/custom_app_bar.dart';
 import 'package:useful_points/views/widgets/custom_button.dart';

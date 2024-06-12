@@ -7,10 +7,13 @@ class Assets {
   static const String iconsFr = 'assets/icons/fr.svg';
   static const String iconsRu = 'assets/icons/ru.svg';
   static const String iconsUz = 'assets/icons/uz.svg';
+  static const String iconsWarningIcon = 'assets/icons/warning_icon.svg';
   static const String imagesAppLogo = 'assets/images/app_logo.svg';
   static const String imagesAppLogoDark = 'assets/images/app_logo_dark.svg';
+  static const String imagesBackgroundCircles = 'assets/images/background_circles.svg';
   static const String imagesNativeSplash = 'assets/images/native_splash.png';
   static const String imagesNativeSplashDark = 'assets/images/native_splash_dark.png';
+  static const String imagesVideoImage = 'assets/images/video_image.png';
   static const String robotoRobotoBlack = 'assets/fonts/roboto/Roboto-Black.ttf';
   static const String robotoRobotoBold = 'assets/fonts/roboto/Roboto-Bold.ttf';
   static const String robotoRobotoLight = 'assets/fonts/roboto/Roboto-Light.ttf';
